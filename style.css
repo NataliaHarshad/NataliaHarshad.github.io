@@ -1,0 +1,744 @@
+@font-face {
+    font-family: 'Vezitsa';
+    src: url('fonts/ofont.ru_Vezitsa.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'carmen';
+    src: url('fonts/carmen.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'English_Rose';
+    src: url('fonts/ofont.ru_English Rose.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Akzentica';
+    src: url('fonts/Akzentica 4F Light (Regular).ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  min-height: 100%;
+  background: #EAE2D0;
+  color: #462714;
+  font-family: Georgia, serif;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.page {
+  width: 100%;
+  min-height: 100vh;
+  background: #EAE2D0;
+}
+
+.hero {
+  width: 100%;
+  padding: 40px 20px 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.hero-title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #462714;
+  font-weight: 400;
+  font-family: 'Vezitsa';
+  font-size: 38px;
+  line-height: 1.15;
+  margin-bottom: 28px;
+}
+
+.hero-title .and {
+    font-family: 'carmen';
+}
+
+.hero-image {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 22px;
+}
+
+.hero-image img {
+  width: 100%;
+  max-width: 320px;
+  display: block;
+  object-fit: cover;
+}
+
+.hero-date {
+  text-align: center;
+  color: #462714;
+  font-family: 'Vezitsa';
+  font-size: 38px;
+  line-height: 1.2;
+  font-weight: 400;
+}
+
+/* Блок 2 */
+
+.story {
+  width: 100%;
+  margin-top: 0;
+}
+
+.story-top-image {
+  position: relative;
+  width: 100%;
+}
+
+.story-top-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+
+
+.story-title {
+  text-align: center;
+  font-family: 'Vezitsa';
+  font-size: 25.5pt;
+  line-height: 1.15;
+  margin: 30px 20px 20px;
+}
+
+.story-title span {
+  display: block;
+}
+
+.story-content {
+  padding: 25px 20px 0;
+}
+
+.story-letter-block {
+  width: 100%;
+}
+
+.second-letter-block {
+  margin-top: 70px;
+}
+
+.story-first-line {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+}
+
+.story-letter {
+  font-family: 'English_Rose';
+  font-size: 68pt;
+  line-height: 0.9;
+}
+
+.story-short-text {
+  font-family: 'Akzentica';
+  font-size: 15.1pt;
+  line-height: 1.45;
+  text-align: left;
+  padding-top: 10px;
+}
+
+.story-second-line {
+  margin-top: 8px;
+  padding-left: 34px;
+}
+
+.story-second-line-s {
+  position: relative;
+  min-height: 180px;
+}
+
+.story-main-text {
+  font-family: 'Akzentica';
+  font-size: 15.1pt;
+  line-height: 1.55;
+  text-align: left;
+}
+
+.story-small-image {
+  position: absolute;
+  right: 0;
+  margin-right: -20px;
+  margin-top: -35px;
+  width: 120px;
+  height: 120px;
+}
+
+.story-small-image img {
+  width: 100%;
+}
+
+.story-bottom-image {
+  margin-top: 25px;
+}
+
+.story-bottom-image img {
+  width: 100%;
+}
+
+/* Блок 3 */
+
+.location-block {
+  width: 100%;
+  padding: 34px 20px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.location-title {
+  font-family: Vezitsa;
+  font-size: 31.9pt;
+  line-height: 1.15;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 14px;
+}
+
+.location-subtitle {
+  font-family: Vezitsa;
+  font-size: 20.5pt;
+  line-height: 1.15;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.location-image {
+  width: 100%;
+  margin-bottom: 18px;
+}
+
+.location-image img {
+  width: 100%;
+  display: block;
+}
+
+.location-address {
+  font-family: Vezitsa;
+  font-size: 22px;
+  line-height: 1.3;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.location-button {
+  display: block;
+  width: 100%;
+  max-width: 126px;
+}
+
+.location-button img {
+  width: 100%;
+  display: block;
+}
+
+/* Блок 4 */
+
+.program-block {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.program-title {
+  font-family: Vezitsa;
+  font-size: 20pt;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.program-image {
+  width: 100%;
+}
+
+.program-image img {
+  width: 100%;
+  display: block;
+}
+
+/* Блок 5 */
+
+.concept-block {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.concept-top-image img {
+  width: 100%;
+  display: block;
+}
+
+.concept-title {
+  font-family: Vezitsa;
+  font-size: 34px;
+  text-align: center;
+  font-weight: 400;
+  margin: 25px 20px 20px;
+  line-height: 1.2;
+}
+
+.concept-center-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+
+.concept-center-image img {
+  width: 70%;
+  max-width: 162px;
+}
+
+.concept-text {
+  padding: 0 22px;
+}
+
+.concept-text p {
+  font-family: Akzentica;
+  font-size: 15.1pt;
+  line-height: 1.5;
+  text-align: left;
+  margin-bottom: 14px;
+}
+
+.concept-full-image {
+  margin-top: 25px;
+}
+
+.concept-full-image img {
+  width: 100%;
+  display: block;
+}
+
+.concept-bottom-text {
+  font-family: Akzentica;
+  font-size: 15.1pt;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px 22px 0;
+}
+
+/* Блок 6 */
+
+.palette-block {
+  width: 100%;
+  padding-top: 40px;
+}
+
+.palette-title {
+  font-family: Vezitsa;
+  font-size: 32px;
+  text-align: center;
+  font-weight: 400;
+  margin: 0 20px 20px;
+}
+
+.palette-image-full img {
+  width: 100%;
+  display: block;
+}
+
+.palette-text {
+  font-family: Akzentica;
+  font-size: 15.1pt;
+  line-height: 1.5;
+  text-align: left;
+  padding: 20px 22px;
+}
+
+.palette-center-image {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.palette-center-image img {
+  width: 70%;
+  max-width: 260px;
+}
+
+.palette-final {
+  position: relative;
+  padding: 0 22px 30px;
+}
+
+.palette-final-text {
+  font-family: Akzentica;
+  font-size: 15.1pt;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.palette-smile {
+  position: absolute;
+  width: 25px;
+
+  right: 125px;   /* двигать вправо / влево */
+  top: 60px;      /* двигать вверх / вниз */
+}
+
+.palette-bottom-image img {
+  width: 100%;
+  display: block;
+}
+
+/* Блок 7 */
+
+.form-block {
+  width: 100%;
+  padding: 40px 20px 50px;
+}
+
+.form-main-title {
+  font-family: Vezitsa;
+  font-size: 38.6pt;
+  line-height: 1.15;
+  text-align: center;
+  font-weight: 400;
+  margin-bottom: 28px;
+}
+
+.wedding-form {
+  width: 100%;
+}
+
+.form-group {
+  margin-bottom: 28px;
+}
+
+.form-title {
+  display: block;
+  font-family: Vezitsa;
+  font-size: 12pt;
+  line-height: 1.2;
+  font-weight: 400;
+  margin-bottom: 14px;
+  text-align: left;
+}
+
+.form-select {
+  width: 100%;
+  min-height: 52px;
+  padding: 14px 16px;
+  border: 1px solid #462714;
+  background: transparent;
+  color: #462714;
+  font-family: Vezitsa;
+  font-size: 15.2pt;
+  border-radius: 0;
+  outline: none;
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.radio-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin-bottom: 12px;
+  font-family: Akzentica;
+  font-size: 18px;
+  line-height: 1.45;
+  cursor: pointer;
+}
+
+.radio-item input[type="radio"] {
+  margin-top: 4px;
+  accent-color: #462714;
+  flex: 0 0 auto;
+}
+
+.allergy-text-wrap {
+  display: none;
+  margin-top: 14px;
+}
+
+.allergy-text-wrap.show {
+  display: block;
+}
+
+.form-textarea {
+  width: 100%;
+  min-height: 120px;
+  padding: 14px 16px;
+  border: 1px solid #462714;
+  background: transparent;
+  color: #462714;
+  font-family: Akzentica;
+  font-size: 17px;
+  line-height: 1.45;
+  resize: vertical;
+  outline: none;
+}
+
+.form-textarea::placeholder {
+  color: #462714;
+  opacity: 0.8;
+}
+
+.form-submit {
+  display: block;
+  width: 100%;
+  max-width: 123px;
+  margin: 0 auto;
+  padding: 0;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.form-submit img {
+  width: 100%;
+  display: block;
+}
+
+.form-submit:active {
+  transform: scale(0.98);
+}
+
+.form-message {
+  margin-top: 16px;
+  text-align: center;
+  font-family: Akzentica;
+  font-size: 16px;
+  line-height: 1.4;
+  min-height: 22px;
+}
+
+/* Блок 8 */
+
+.meeting-block {
+  width: 100%;
+  margin-top: -40px;
+  padding-bottom: 40px;
+}
+
+.meeting-title {
+  font-family: Vezitsa;
+  font-size: 24.7pt;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+/* фото 13 */
+
+.meeting-photo-13 {
+  width: 227px;
+  display: block;
+  margin: 0 auto;
+  
+}
+
+/* фото 14 */
+
+.meeting-photo-14 {
+  width: 142px;
+  display: block;
+  margin: 0 auto;
+}
+
+/* таймер */
+
+.countdown {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 24px 12px;
+}
+
+.countdown-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.countdown-number {
+  font-family: Vezitsa;
+  font-size: 27.2pt;
+}
+
+.countdown-label {
+  font-family: Vezitsa;
+  font-size: 13.7pt;
+}
+
+/* ссылка */
+
+.wishlist-link-wrap {
+  position: relative;
+  padding: 20px 22px 0;
+  text-align: center;
+}
+
+.wishlist-link {
+  font-family: Vezitsa;
+  width: 300px;
+  font-size: 12.6pt;
+  color: #462714;
+  text-align: center;
+  /* text-decoration: none; убрали подчеркивание */
+}
+
+/* фото 11 */
+
+.wishlist-photo-11 {
+  position: absolute;
+  width: 22px;
+
+  top: 35px;
+  right: 90px;
+}
+
+/* Переключатель языка */
+
+.language-switcher {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 16px 20px 10px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: #EAE2D0;
+}
+
+.lang-btn {
+  min-width: 58px;
+  padding: 8px 14px;
+  border: 1px solid #462714;
+  background: transparent;
+  color: #462714;
+  font-family: carmen;
+  font-size: 18px;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.lang-btn.active {
+  background: #462714;
+  color: #EAE2D0;
+}
+
+/* ============================
+   Смена шрифтов RU / EN
+   ============================ */
+
+/* по умолчанию русский */
+
+.hero-title,
+.story-title,
+.location-title,
+.location-subtitle,
+.program-title,
+.concept-title,
+.palette-title,
+.form-main-title,
+.form-title,
+.meeting-title,
+.wishlist-link,
+.countdown-number,
+.countdown-label, 
+.location-address,
+.hero-date {
+  font-family: Vezitsa;
+}
+
+/* английская версия */
+
+body.lang-en .hero-title,
+body.lang-en .story-title,
+body.lang-en .location-title,
+body.lang-en .location-subtitle,
+body.lang-en .program-title,
+body.lang-en .concept-title,
+body.lang-en .palette-title,
+body.lang-en .form-main-title,
+body.lang-en .form-title,
+body.lang-en .meeting-title,
+body.lang-en .wishlist-link,
+body.lang-en .countdown-number,
+body.lang-en .countdown-label,
+body.lang-en .location-address,
+body.lang-en .hero-date {
+  font-family: carmen;
+}
+
+/* select шрифт для EN */
+
+body.lang-en .form-select {
+  font-family: carmen;
+}
+
+body.lang-en .palette-smile {
+  right: 230px;
+  top: 55px;
+}
+
+body.lang-en .wishlist-photo-11 {
+  right: 75px;
+  top: 17px;
+}
+
+/* Кнопка музыки */
+
+.music-toggle {
+  position: fixed;
+  right: 14px;
+  bottom: 14px;
+  width: 64px;
+  height: 64px;
+  padding: 0;
+  border: none;
+  background: transparent;
+  z-index: 999;
+  cursor: pointer;
+}
+
+.music-disc {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: contain;
+}
+
+.music-disc.is-playing {
+  animation: musicRotate 4s linear infinite;
+}
+
+@keyframes musicRotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
