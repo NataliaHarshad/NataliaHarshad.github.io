@@ -408,6 +408,11 @@ body {
   display: block;
 }
 
+.palette-image-full-t img {
+  width: 100%;
+  display: block;
+}
+
 /* Блок 7 */
 
 .form-block {
@@ -741,9 +746,4 @@ body.lang-en .wishlist-photo-11 {
   to {
     transform: rotate(360deg);
   }
-}
-
-.palette-image-full-t img {
-  width: 100%;
-  display: block;
 }
