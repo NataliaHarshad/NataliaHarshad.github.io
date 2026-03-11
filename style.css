@@ -742,3 +742,8 @@ body.lang-en .wishlist-photo-11 {
     transform: rotate(360deg);
   }
 }
+
+.palette-image-full-t img {
+  width: 100%;
+  display: block;
+}

@@ -79,6 +79,7 @@ const translations = {
     img_5: "img/5.png",
     img_6: "img/6.png",
     img_12: "img/12.png",
+    img_16: "img/16.png",
 
     location_map: "https://yandex.com/maps/org/usadba_mosolovykh/110497682322/"
   },
@@ -152,6 +153,7 @@ const translations = {
     img_5: "img/5-en.png",
     img_6: "img/6-en.png",
     img_12: "img/12-en.png",
+    img_16: "img/16-en.png",
     location_map: "https://maps.app.goo.gl/XyMPRUcVRVb8FWSKA?g_st=ic"
   }
 };
